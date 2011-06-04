@@ -1,0 +1,98 @@
+<!-- <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> -->
+<html>
+
+
+<head>
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+  <link rel="stylesheet" href="index.css">
+  <title>Angry Pirate</title>
+
+  <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true">
+  </script>
+
+  <script type="text/javascript">
+    function initialize() {
+      var latlng = new google.maps.LatLng(52.775666, -1.204891);
+      var myOptions = {
+        zoom: 12,
+        center: latlng,
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+      };
+      var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
+    }
+  </script>
+
+</head>
+
+<body onload="initialize()">
+
+  <div id="head">
+    <h1>It works...(sort of)</h1> 
+  </div>
+
+  <div id="nav">
+    [
+    <a href="index02.html">Home</a> |
+    <a href="links.html">Links</a> 
+    ]
+    
+    <br />
+    <br />  
+  </div>
+
+
+  <div id="map_canvas" style="width:100%; height:80%">
+  </div>
+
+  <!--<div id="content">
+    <p><img border="0" src="http://maps.google.com/maps/api/staticmap?center=Brooklyn+Bridge,New+York,NY&zoom=14&size=512x512&maptype=roadmap&markers=color:blue|label:S|40.702147,-74.015794&markers=color:green|label:G|40.711614,-74.012318&markers=color:red|label:C|40.718217,-73.998284&sensor=false" alt="Points of Interest in Lower Manhattan" /></p>
+  </div>-->
+
+  <div id="footer">
+    <br />    
+    send me a mail (actually don't):<a href="mailto:llcooltim@ntlworld.com?subject=hello...">e-mail</a>
+  </div>
+</body>
+
+<!--
+<script type="text/javascript">
+  function disp_alert()
+  {
+    alert("oh joy");
+  }
+</script>  
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+  <link rel="stylesheet" href="index.css">
+  <title>Angry Pirate</title>
+</head>
+
+<body>
+  <div id="head">
+    <h1>It works...(sort of)</h1> 
+  </div>
+
+  <div id="nav">
+    [
+    <a href="index02.html">Home</a> |
+    <a href="links.html">Links</a> 
+    ]
+    
+    <br />
+    <br />  
+  </div>
+
+  <div id="content">
+    <p><img border="0" src="http://maps.google.com/maps/api/staticmap?center=Brooklyn+Bridge,New+York,NY&zoom=14&size=512x512&maptype=roadmap&markers=color:blue|label:S|40.702147,-74.015794&markers=color:green|label:G|40.711614,-74.012318&markers=color:red|label:C|40.718217,-73.998284&sensor=false" alt="Points of Interest in Lower Manhattan" /></p>
+  </div>
+  
+  <div id="footer">
+    <br />    
+    send me a mail (actually don't):<a href="mailto:llcooltim@ntlworld.com?subject=hello...">e-mail</a>
+  </div>
+     
+</body>-->
+</html>
+

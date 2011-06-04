@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>llcooltim feed</title>
+    <description>Some feeds charting development of my site (term used loosely)</description>
+    <link>http://homepage.ntlworld.com/llcooltim/</link>
+    <lastBuildDate>Mon, 28 Aug 2006 11:12:55 -0400 </lastBuildDate>
+    <pubDate>Tue, 29 Aug 2006 09:00:00 -0400</pubDate>
+
+    <item>
+      <title>internationalisation... basically an excuse for an old joke</title>
+      <description>Added i18n page</description>
+      <link>http://homepage.ntlworld.com/llcooltim/i18n.html</link>
+      <guid isPermaLink="false"> 1102345</guid>
+      <pubDate>Tue, 17 Aug 2010 14:33:00 -0400</pubDate>
+    </item>
+
+    <item>
+      <title>Maps page again</title>
+      <description>Added maps page to test Google api</description>
+      <link>http://homepage.ntlworld.com/llcooltim/maps.html</link>
+      <guid isPermaLink="false"> 1102345</guid>
+      <pubDate>Sun, 11 Jul 2010 14:33:00 -0400</pubDate>
+    </item>
+
+    <item>
+      <title>Chart page added</title>
+      <description>Added charts page</description>
+      <link>http://homepage.ntlworld.com/llcooltim/charts02.html</link>
+      <guid isPermaLink="false"> 1102345</guid>
+      <pubDate>Tue, 29 Jun 2010 09:00:00 -0400</pubDate>
+    </item>
+
+    <item>
+      <title>Added a links page</title>
+      <description>Added to links page...</description>
+      <link>http://homepage.ntlworld.com/llcooltim/links.html</link>
+      <guid isPermaLink="false"> 1102345</guid>
+      <pubDate>Tue, 29 Aug 2009 09:00:00 -0400</pubDate>
+    </item>
+
+  </channel>
+</rss>
